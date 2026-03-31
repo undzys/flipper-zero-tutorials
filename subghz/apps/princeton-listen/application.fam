@@ -1,0 +1,16 @@
+App(
+    appid="priceton_listener",
+    name="Princeton Listener",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="priceton_listener_app",
+    requires=[
+        "gui",
+    ],
+    stack_size=2 * 1024,
+    order=100,
+    fap_description="Princeton Listener",
+    fap_author="codeallnight",
+    fap_weburl="https://github.com/jamisonderek/Flipper-Zero-tutorials",
+    fap_category="Sub-GHz",
+    fap_icon="icon.png",
+)
